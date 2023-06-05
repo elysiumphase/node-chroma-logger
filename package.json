@@ -1,0 +1,41 @@
+{
+  "name": "node-chroma-logger",
+  "version": "1.0.0",
+  "author": "Elysium Phase <hi@elysiumphase.com> (https://github.com/elysiumphase)",
+  "description": "A zero-dependency minimalist asynchronous Node.js chromatic logger",
+  "bin": {},
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "mocha test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elysiumphase/node-chroma-logger.git"
+  },
+  "engines": {
+    "node": ">=10.22.1",
+    "npm": ">=6.14.6"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "colorful",
+    "logger"
+  ],
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "chai": "4.3.7",
+    "consis": "1.3.2",
+    "eslint": "8.41.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "mocha": "10.2.0"
+  },
+  "private": false,
+  "preferGlobal": false,
+  "analyze": false,
+  "license": "MIT"
+}
