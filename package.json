@@ -1,6 +1,6 @@
 {
   "name": "node-chroma-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Elysium Phase <hi@elysiumphase.com> (https://github.com/elysiumphase)",
   "description": "A zero-dependency minimalist asynchronous Node.js chromatic logger",
   "bin": {},
