@@ -73,10 +73,10 @@ Mocha and Chai for unit testing.
 
 | name | description | required | default |
 | :--- | :---------- | :-------- | :----- |
-| **NODE_COLORFUL_LOGGER_DISABLE_COLOR** | Wether to disable setting color (escape sequences). It is especially needed if the terminal does not have the feature to display colors at all or you just don't want any color. It is always set to `false` so that terminals that are not detected as able to display colors like for Gitlab CI pipelines for an example can always have colors displayed. Accepted values: `true` or `1`. |  | `false` |
-| **NODE_COLORFUL_LOGGER_DISABLE_DATE_FORMAT** | Wether to disable showing date in the log format. Accepted values: `true` or `1`. |  | `false` |
-| **NODE_COLORFUL_LOGGER_DISABLE_SEVERITY_FORMAT** | Wether to disable showing severity in the log format. Accepted values: `true` or `1`. |  | `false` |
-| **NODE_COLORFUL_LOGGER_SEVERITY** | Logger severity selected. See logger [severities](#severities). Higher severities, if any, are activated. |  | `trace` |
+| **NODE_CHROMA_LOGGER_DISABLE_COLOR** | Wether to disable setting color (escape sequences). It is especially needed if the terminal does not have the feature to display colors at all or you just don't want any color. It is always set to `false` so that terminals that are not detected as able to display colors like for Gitlab CI pipelines for an example can always have colors displayed. Accepted values: `true` or `1`. |  | `false` |
+| **NODE_CHROMA_LOGGER_DISABLE_DATE_FORMAT** | Wether to disable showing date in the log format. Accepted values: `true` or `1`. |  | `false` |
+| **NODE_CHROMA_LOGGER_DISABLE_SEVERITY_FORMAT** | Wether to disable showing severity in the log format. Accepted values: `true` or `1`. |  | `false` |
+| **NODE_CHROMA_LOGGER_SEVERITY** | Logger severity selected. See logger [severities](#severities). Higher severities, if any, are activated. |  | `trace` |
 
 ### Severities
 

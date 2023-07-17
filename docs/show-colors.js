@@ -1,7 +1,7 @@
-process.env.NODE_COLORFUL_LOGGER_DISABLE_DATE_FORMAT = 'false';
-process.env.NODE_COLORFUL_LOGGER_DISABLE_SEVERITY_FORMAT = 'false';
-process.env.NODE_COLORFUL_LOGGER_DISABLE_COLOR = 'false';
-process.env.NODE_COLORFUL_LOGGER_SEVERITY = 'trace';
+process.env.NODE_CHROMA_LOGGER_DISABLE_DATE_FORMAT = 'false';
+process.env.NODE_CHROMA_LOGGER_DISABLE_SEVERITY_FORMAT = 'false';
+process.env.NODE_CHROMA_LOGGER_DISABLE_COLOR = 'false';
+process.env.NODE_CHROMA_LOGGER_SEVERITY = 'trace';
 
 const logger = require('../src');
 

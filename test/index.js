@@ -27,10 +27,10 @@ const exec = ({
     {
       env: {
         ...process.env,
-        NODE_COLORFUL_LOGGER_SEVERITY: severity,
-        NODE_COLORFUL_LOGGER_DISABLE_COLOR: disableColor,
-        NODE_COLORFUL_LOGGER_DISABLE_DATE_FORMAT: disableDateFormat,
-        NODE_COLORFUL_LOGGER_DISABLE_SEVERITY_FORMAT: disableSeverityFormat,
+        NODE_CHROMA_LOGGER_SEVERITY: severity,
+        NODE_CHROMA_LOGGER_DISABLE_COLOR: disableColor,
+        NODE_CHROMA_LOGGER_DISABLE_DATE_FORMAT: disableDateFormat,
+        NODE_CHROMA_LOGGER_DISABLE_SEVERITY_FORMAT: disableSeverityFormat,
       },
       encoding: 'utf8',
     },

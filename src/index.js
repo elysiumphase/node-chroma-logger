@@ -1,12 +1,12 @@
 const { format } = require('util');
 
-const disableDateFormat = process.env.NODE_COLORFUL_LOGGER_DISABLE_DATE_FORMAT === 'true'
-|| process.env.NODE_COLORFUL_LOGGER_DISABLE_DATE_FORMAT === '1';
-const disableSeverityFormat = process.env.NODE_COLORFUL_LOGGER_DISABLE_SEVERITY_FORMAT === 'true'
-|| process.env.NODE_COLORFUL_LOGGER_DISABLE_SEVERITY_FORMAT === '1';
-const disableColor = process.env.NODE_COLORFUL_LOGGER_DISABLE_COLOR === 'true'
-  || process.env.NODE_COLORFUL_LOGGER_DISABLE_COLOR === '1';
-const envSeverity = process.env.NODE_COLORFUL_LOGGER_SEVERITY;
+const disableDateFormat = process.env.NODE_CHROMA_LOGGER_DISABLE_DATE_FORMAT === 'true'
+|| process.env.NODE_CHROMA_LOGGER_DISABLE_DATE_FORMAT === '1';
+const disableSeverityFormat = process.env.NODE_CHROMA_LOGGER_DISABLE_SEVERITY_FORMAT === 'true'
+|| process.env.NODE_CHROMA_LOGGER_DISABLE_SEVERITY_FORMAT === '1';
+const disableColor = process.env.NODE_CHROMA_LOGGER_DISABLE_COLOR === 'true'
+  || process.env.NODE_CHROMA_LOGGER_DISABLE_COLOR === '1';
+const envSeverity = process.env.NODE_CHROMA_LOGGER_SEVERITY;
 
 const colors = {
   backgroundLightRed: disableColor ? '' : '\x1b[101m',
